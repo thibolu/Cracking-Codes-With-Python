@@ -1,5 +1,11 @@
 # Simple Substitution Cipher Hacker
 # https://www.nostarch.com/crackingcodes/ (BSD Licensed)
+
+''' Substitution cipher hacker that uses word patterns to decrypt. Must run
+	makeWordPattersns.py first to create wordPatterns.py module. Additionally,
+	requires dictionary.txt'''
+
+
 import os, re, copy, wordPatterns, makeWordPatterns
 import simpleSubstitutionCipher as simpleSubCipher
 
